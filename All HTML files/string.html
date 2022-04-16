@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>String Operations</h1>
+        <p>The length of the string</p>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <script>
+            let text ="ABCDRFHRIHT";
+            document.getElementById("demo").innerHTML=text.length;
+            </script>
+        <script>
+            let str="Apple,Banana,Orange";
+            document.getElementById("demo1").innerHTML=str.slice(7,13);
+            let line="the rain in spain stays mainly in the plain";
+            let result=line.match("spa");
+            document.getElementById("demo2").innerHTML=result;
+
+        </script>
+
+    </body>
+</html>

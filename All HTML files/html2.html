@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>JAVASCRIPT</h2>
+        <p>We want to add string with a number</p>
+        <p id="demo"></p>
+        <p id="first"></p>
+        <p id="second"></p>
+        <p id="third"></p>
+
+        <script>
+            let a=4+"debagni";
+            document.getElementById("demo").innerHTML=a;
+            const name=["debagni","oishika","ritika"];
+            document.getElementById("second").innerHTML=name[2];
+            let fname="it's a sunnny day";
+            let lname="he is a very good 'student'";
+            let std='hi my name is "debagni"';
+            document.getElementById("third").innerHTML=fname+"<br>" + lname + "<br>" + std;
+            const student={
+                name: "Oishika",
+                lname: "Sarkar",
+                grade: "A",
+            };
+            document.getElementById("first").innerHTML=student.name + "<br>" + student.lname + "is a very good student having" + student.grade+"grade";
+
+            </script>
+    </body>
+</html>
